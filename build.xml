@@ -2,7 +2,7 @@
 <project name="SampleJavaProject" default="jar"
          xmlns:ivy="antlib:org.apache.ivy.ant">
 
-  <!-- Project-specific configuration -->
+  <!--Chnages regard the ssh key -->
   <loadproperties srcfile="project.properties"/>
   <property name="main.class" value="${package.main}.${ant.project.name}"/>
   <property name="base.name" value="${artifactId}-${version}"/>
